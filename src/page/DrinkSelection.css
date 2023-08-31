@@ -1,0 +1,68 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+
+#card {
+  position: relative;
+  background-color: #adc4ce;
+  display: flex;
+  margin: 150px auto;
+  height: 600px;
+  width: 700px;
+  box-shadow: 2.5px 1.9px 1.9px rgba(0, 0, 0, 0.023),
+    5.8px 4.4px 4.3px rgba(0, 0, 0, 0.034),
+    10.4px 7.8px 7.7px rgba(0, 0, 0, 0.041),
+    17.2px 13px 12.8px rgba(0, 0, 0, 0.049),
+    28.3px 21.4px 21.2px rgba(0, 0, 0, 0.056),
+    49.5px 37.4px 37px rgba(0, 0, 0, 0.067), 107px 81px 80px rgba(0, 0, 0, 0.09);
+}
+
+.img_Id {
+  width: 50%;
+}
+
+.inner_div {
+  margin: 50% auto;
+  font-family: "Nunito", sans-serif;
+}
+
+.title {
+  font-family: "Aboreto", cursive;
+  font-size: 40px;
+  color: white;
+  position: relative;
+}
+
+
+.text {
+  display:flex;
+  margin: 30px 20px 0px 20px;
+  font-size: 20px;
+  color: white;
+}
+
+/* .bttn{
+    margin-right: 100px;
+} */
+
+.bttnn {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 40px;
+    display: inline-block;
+    /* padding: 10px 20px; */
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect */
+  .bttnn:hover {
+    background-color: #0056b3;
+  }
